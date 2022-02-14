@@ -4,7 +4,7 @@ require 'json'
 
 class GamesController < ApplicationController
   def new
-    letters_number = 8
+    letters_number = 10
     @letters = []
 
     letters_number.times do
