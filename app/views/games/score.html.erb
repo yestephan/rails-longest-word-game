@@ -1,0 +1,13 @@
+<div class="wrapper">
+  <h1>Score</h1>
+<div class="container">
+  <ul>
+    <% @letters.split(" ").each do |letter| %>
+      <li><%= letter %></li>
+    <% end %>
+  </ul>
+  <p><%= @response %></p>
+  <p>Your score is: <%= @score %></p>
+</div>
+<%= link_to "Play again", new_path %>
+</div>
